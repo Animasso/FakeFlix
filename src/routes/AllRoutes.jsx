@@ -6,8 +6,11 @@ export const AllRoutes = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<MovieList />} />
-        <Route path="/MovieDetail" element={<MovieDetail />} />
+        <Route path="/" element={<MovieList />} end />
+        <Route path="/movies/popular" element={<MovieList />} />
+        <Route path="/movies/top" element={<MovieList />} />
+        <Route path="/movies/upcoming" element={<MovieList />} />
+        <Route path="/movies/:id" element={<MovieDetail />} />
         <Route path="/SearchResult" element={<SearchPage />} />
         <Route path="*" element={<Error404 />} />
       </Routes>

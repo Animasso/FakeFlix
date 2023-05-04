@@ -1,9 +1,13 @@
 import "./App.css";
+import { Header, Footer } from "./components";
+import { AllRoutes } from "./routes/AllRoutes";
 
 function App() {
   return (
     <div className="App">
-      <h1 className=" text-3xl text-orange-500"> bitch</h1>
+      <Header />
+      <AllRoutes />
+      <Footer />
     </div>
   );
 }
