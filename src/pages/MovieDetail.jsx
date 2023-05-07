@@ -122,6 +122,7 @@ export const MovieDetail = ({ apiPath }) => {
               </span>
             </p>
           </div>
+          {/*  */}
         </div>
       </section>
     </main>
