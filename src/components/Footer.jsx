@@ -15,6 +15,7 @@ export const Footer = () => {
           <li>
             <Link
               target="_blank"
+              rel="noreferrer"
               to="https://www.instagram.com/"
               className="mr-4 hover:underline md:mr-6 "
             >
@@ -24,6 +25,7 @@ export const Footer = () => {
           <li>
             <Link
               target="_blank"
+              rel="noreferrer"
               to="https://www.youtube.com/"
               className="mr-4 hover:underline md:mr-6"
             >
@@ -33,6 +35,7 @@ export const Footer = () => {
           <li>
             <Link
               target="_blank"
+              rel="noreferrer"
               to="https://twitter.com/"
               className="mr-4 hover:underline md:mr-6"
             >
@@ -42,6 +45,7 @@ export const Footer = () => {
           <li>
             <Link
               target="_blank"
+              rel="noreferrer"
               to="https://www.linkedin.com/feed/"
               className="hover:underline"
             >
